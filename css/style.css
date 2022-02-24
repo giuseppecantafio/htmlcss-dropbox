@@ -1,0 +1,25 @@
+/* Debug */
+.debug{
+    border: 1px solid black;
+}
+
+/* Reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* General */
+.clearfix::after{
+    content: " ";
+    display: table;
+    clear: both;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    min-width: 1200px;
+    font-family: 'Open Sans', sans-serif;
+}
