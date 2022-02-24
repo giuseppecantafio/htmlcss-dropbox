@@ -23,3 +23,58 @@ body{
     min-width: 1200px;
     font-family: 'Open Sans', sans-serif;
 }
+.right{
+    float: right;
+}
+.left{
+    float: left;
+}
+.button{
+    background-color: #0061fe;
+    color: white;
+    padding: 5px 20px;
+}
+
+/* Header */
+    /* Nav */
+nav{
+    height: 10vh;
+    line-height: 10vh;
+    font-size: 2vh;
+}
+.logo-dropbox a img{
+    vertical-align: middle;
+    width: 90%;
+    padding-bottom: 5px;
+    padding-left: 30px;
+    padding-right: 20px;
+}
+.navblock-left{
+    width: 50%;
+    text-align: left;
+}
+.navblock-right{
+    width: 50%;
+    text-align: right;
+}
+div.navblock ul{
+    list-style-type: none;
+}
+div.navblock.left ul li{
+    display: inline-block;
+    padding-right: 30px;
+
+}
+div.navblock-right ul li{
+    display: inline-block;
+    padding-left: 30px;
+
+}
+div.navblock ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+div.navblock ul li:last-of-type{
+    padding-right: 30px;
+}
