@@ -39,9 +39,14 @@ body{
 /* Header */
     /* Nav */
 nav{
+    background-color: white;
     height: 10vh;
+    width: 100%;
     line-height: 10vh;
     font-size: 2vh;
+    position: fixed;
+    top: 0;
+    left: 0;
 }
 .logo-dropbox a img{
     vertical-align: middle;
@@ -121,7 +126,7 @@ div.navblock ul li:last-of-type{
 .jumbotron h3{
     font-size: 2vh;
 }
-.jumbotron h4{
+.jumbotron h4{ /* Fare successivamente ancora legata alla sezione delle 3 colonne */
     font-size: 6vh;
     padding-top: 30px;
 }
