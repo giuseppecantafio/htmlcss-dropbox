@@ -130,3 +130,63 @@ div.navblock ul li:last-of-type{
     font-size: 6vh;
     padding-top: 30px;
 }
+
+/* Main */
+    /* Titolo e check-box */
+.plans-container{
+    width: 80%;
+    padding-top: 200px;
+    margin: 0 auto;
+}
+section.plans-container h2{
+    font-size: 5vh;
+    font-weight: 700;
+    padding-bottom: 50px;
+}
+.fake-check-box{
+    padding-bottom: 30px;
+}
+.fake-check-box p{
+    font-weight: 600;
+}
+.fake-check-box p, .fake-check-box div{
+    display: inline-block;
+}
+.fake-check-left{
+    height: 20px;
+    width: 20px;
+    vertical-align: middle;
+    border: 5px solid #0062fe;
+    border-radius: 50%;
+}
+.fake-check-right{
+    height: 20px;
+    width: 20px;
+    vertical-align: middle;
+    border: 2px solid #e5e5e5;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+    /* Piani di abbonamento */
+.plans-row{
+    width: 100%;
+    min-height: 1083px;
+}
+.plan-1{
+    width: calc((100% / 3) - 40px);
+    min-height: 1083px;
+}
+.plan-2{
+    width: calc((100% / 3) - 40px);
+    min-height: 1083px;
+    margin: 0 60px;
+}
+.plan-3{
+    width: calc((100% / 3) - 40px);
+    min-height: 1083px;
+}
+.plan-contact{
+    margin-top: 50px;
+    width: 100%;
+    height: 25vh; /* togliere poi */
+}
