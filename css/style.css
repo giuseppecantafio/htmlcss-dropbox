@@ -42,12 +42,16 @@ body{
     margin-top: 40px;
     margin-bottom: 20px;
 }
+}
 hr.interline{
     width: 20%;
     color: #d7d7d7;
 }
 .gray-text{
     color: #848f95;
+}
+.blue-text{
+    color: #1466e6;
 }
 .title{
     border-bottom: 2px solid #d7d7d7;
@@ -68,6 +72,7 @@ nav{
     position: fixed;
     top: 0;
     left: 0;
+    z-index: 1000000;
 }
 .logo-dropbox a img{
     vertical-align: middle;
@@ -148,11 +153,13 @@ nav{
 .jumbotron h3{
     font-size: 2vh;
 }
-.jumbotron h4{ /* Perché l'arrow rimane viola? */
-    text-decoration: none;
-    color: black;
+.jumbotron h4{
     font-size: 6vh;
     padding-top: 30px;
+}
+.jumbotron h4 a{
+    text-decoration: none;
+    color: black;
 }
 
 /* Main */
@@ -343,4 +350,15 @@ margin-left: 30px;
     padding-bottom: 80px;
     font-size: 2vh;
 }
-
+    /* Numeri */
+.numbers{
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+.numbers h2{
+    font-size: 5vh;
+}
+.numbers-link{
+    padding-top: 25px;
+}
