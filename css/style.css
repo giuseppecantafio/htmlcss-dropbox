@@ -36,12 +36,22 @@ body{
     color: white;
     padding: 5px 20px;
 }
+.central-button-box{
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
 hr.interline{
     width: 20%;
     color: #d7d7d7;
 }
 .gray-text{
     color: #848f95;
+}
+.title{
+    border-bottom: 2px solid #d7d7d7;
+    margin-left: -2px;
 }
 
 /* Header */
@@ -149,7 +159,7 @@ div.navblock ul li:last-of-type{
     padding-top: 200px;
     margin: 0 auto;
 }
-section.plans-container h2{
+.plans-container h2{
     font-size: 5vh;
     font-weight: 700;
     padding-bottom: 50px;
@@ -195,7 +205,7 @@ section.plans-container h2{
     width: 85%;
     margin: 0 auto;
 }
-.plan h4:first-child{ /* Aggiustare successivamente il fatto che sia chiuso in un div e non in hr */
+.plan h4:first-child{ /* Vedere se si può creare una classe unica per gli h4 della plan-box e della contact-box */
     text-align: center;
     font-size: 2vh;
     line-height: 5vh;
@@ -212,12 +222,6 @@ div.col-box p{
 }
 div.col-box .gray-text{
     margin-bottom: 40px;
-}
-.central-button-box{
-    width: 90%;
-    margin: 0 auto;
-    margin-top: 40px;
-    margin-bottom: 20px;
 }
 .central-button-box .button{
     width: 100%;
@@ -242,5 +246,32 @@ div.col-box ul li{
 .plan-contact{
     margin-top: 50px;
     width: 100%;
-    height: 25vh; /* togliere poi */
+    min-height: 240px;
+    border: 2px solid #d7d7d7;
+}
+.title h4{
+    text-align: center;
+    font-size: 2vh;
+    line-height: 5vh;
+}
+.contact-box-1{
+    width: 70%;
+}
+.contact-box-1 h2{
+    font-size: 5vh;
+    padding-top: 20px;
+    padding-bottom: 15px;
+}
+.contact-box-1 h3{
+    font-size: 2vh;
+    padding-bottom: 30px;
+}
+.contact-box-1{
+    font-size: 2vh;
+}
+.contact-box-2{
+    width: 30%;
+}
+.contact-row{
+margin-left: 30px;
 }
