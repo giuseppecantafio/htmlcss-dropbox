@@ -53,6 +53,9 @@ hr.interline{
     border-bottom: 2px solid #d7d7d7;
     margin-left: -2px;
 }
+.underline-text{
+    text-decoration: underline;
+}
 
 /* Header */
     /* Nav */
@@ -81,25 +84,25 @@ nav{
     width: 50%;
     text-align: right;
 }
-div.navblock ul{
+.navblock ul{
     list-style-type: none;
 }
-div.navblock.left ul li{
+.navblock.left ul li{
     display: inline-block;
     padding-right: 30px;
 
 }
-div.navblock-right ul li{
+.navblock-right ul li{
     display: inline-block;
     padding-left: 30px;
 
 }
-div.navblock ul li a{
+.navblock ul li a{
     text-decoration: none;
     color: black;
     font-weight: 600;
 }
-div.navblock ul li:last-of-type{
+.navblock ul li:last-of-type{
     padding-right: 30px;
 }
 .nav-button{
@@ -210,37 +213,38 @@ div.navblock ul li:last-of-type{
     font-size: 2vh;
     line-height: 5vh;
 }
-div.col-box h2{ /*togliere i div e vedere che succede */
+.col-box h2{
     font-size: 3vh;
     padding-top: 30px;
     padding-bottom: 15px;
 }
-div.col-box p{
+.col-box p{
     font-size: 2vh;
     padding-top: 15px;
     padding-bottom: 15px;
 }
-div.col-box .gray-text{
+.col-box .gray-text{
     margin-bottom: 40px;
 }
 .central-button-box .button{
     width: 100%;
     text-align: center;
 }
-div.col-box hr{
+.col-box hr{
     margin-top: 10px;
     margin-bottom: 30px;
 }
-div.col-box h3{
+.col-box h3{
     font-size: 2.3vh;
 }
-div.col-box ul li{
+.col-box ul li{
     list-style-type: none;
     font-size: 2vh;
     padding-top: 15px;
     padding-bottom: 15px;
 
-}div.col-box ul li .fa-color{
+}
+.col-box ul li .fa-color{
     color: #357bea;
 }
 .plan-contact{
@@ -275,11 +279,9 @@ div.col-box ul li{
 .contact-row{
 margin-left: 30px;
 }
-
-/* Promo */
+    /* Promo */
 .promo-container{
     width: 80%;
-    min-height: 540px;
     padding-top: 200px;
     margin: 0 auto;
 }
@@ -309,3 +311,36 @@ margin-left: 30px;
     color: black;
     border: 2px solid black;
 }
+    /* Dropbox Business */
+.db-container{
+    width: 80%;
+    padding-top: 80px;
+    margin: 0 auto;
+}
+.db-container h2{
+    font-size: 5vh;
+    font-weight: 800;
+    padding-bottom: 50px;
+}
+.db-row{
+    width: 100%;
+}
+.db-col{
+    width: calc((100% / 3) - (240px / 6));
+    margin: 0 auto;
+}
+.db-col-center{
+    margin: 0 60px
+}
+.db-col img{
+    width: 100%;
+}
+.db-col h3{
+    padding-bottom: 20px;
+    font-size: 3.5vh;
+}
+.db-col p{
+    padding-bottom: 80px;
+    font-size: 2vh;
+}
+
