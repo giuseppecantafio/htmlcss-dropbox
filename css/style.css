@@ -38,6 +38,7 @@ body{
 }
 hr.interline{
     width: 20%;
+    color: #d7d7d7;
 }
 .gray-text{
     color: #848f95;
@@ -134,7 +135,9 @@ div.navblock ul li:last-of-type{
 .jumbotron h3{
     font-size: 2vh;
 }
-.jumbotron h4{ /* Fare successivamente ancora legata alla sezione delle 3 colonne */
+.jumbotron h4{ /* Perché l'arrow rimane viola? */
+    text-decoration: none;
+    color: black;
     font-size: 6vh;
     padding-top: 30px;
 }
@@ -183,6 +186,7 @@ section.plans-container h2{
 .plan{
     width: calc((100% / 3) - 40px);
     min-height: 1083px;
+    border: 2px solid #d7d7d7;
 }
 .plan-2{
     margin: 0 60px;
@@ -191,7 +195,7 @@ section.plans-container h2{
     width: 85%;
     margin: 0 auto;
 }
-.plan h4:first-child{
+.plan h4:first-child{ /* Aggiustare successivamente il fatto che sia chiuso in un div e non in hr */
     text-align: center;
     font-size: 2vh;
     line-height: 5vh;
@@ -219,20 +223,22 @@ div.col-box .gray-text{
     width: 100%;
     text-align: center;
 }
+div.col-box hr{
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+div.col-box h3{
+    font-size: 2.3vh;
+}
+div.col-box ul li{
+    list-style-type: none;
+    font-size: 2vh;
+    padding-top: 15px;
+    padding-bottom: 15px;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+}div.col-box ul li .fa-color{
+    color: #357bea;
+}
 .plan-contact{
     margin-top: 50px;
     width: 100%;
