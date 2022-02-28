@@ -440,7 +440,6 @@ margin-left: 30px;
     /* Underbox */
 .underbox{
     width: 100%;
-    min-width: 2010px;
     min-height: 300px;
     background-color: #b4d0e6;
 }
@@ -476,7 +475,6 @@ margin-left: 30px;
     /* FAQ */
 .faq-container{
     width: 100%;
-    min-width: 2010px;
     min-height: 400px;
     padding-bottom: 200px;
 }
@@ -505,10 +503,41 @@ footer{
     background-color: #000000;
     color: white;
     width: 100%;
-    min-height: 500px;
+    min-height: 600px;
 }
 .footer-container{
     width: 80%;
+    margin-left: 100px;
+    padding-top: 100px;
+    min-height: 600px;
+}
+.footer-list ul{
+    list-style-type: none;
+    padding-right: 130px;
     min-height: 400px;
-    margin-left: 50px;
+}
+.footer-list ul li{
+    font-size: 2vh;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.fotter-list ul li h2{
+    font-size: 3vh;
+    padding-bottom: 20px;
+}
+.footer-list ul li a{
+    text-decoration: none;
+    color: white;
+}
+.language-box{
+    width: 100%;
+    min-height: 100px;
+}
+.language-box hr{
+    width: 200px;
+}
+.language-box p{
+    font-size: 1.8vh;
+    font-weight: 400;
+    padding-top: 30px;
 }
